@@ -5,6 +5,7 @@
 			"Critical-Cookie"
 		],
 		"description": "IMPOSTOR DETECTOR For the Sussy BAKA's",
+		"title": "Impostor Detector",
 		"update_url": "https://raw.githubusercontent.com/Critical-Cookie/TF2BD-Impostor-Detector/main/rules.amogusrealtime.json"
 	},
 	"rules": [
