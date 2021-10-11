@@ -1,0 +1,68 @@
+{
+	"$schema": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/schemas/v3/rules.schema.json",
+	"rules": [
+		{
+			"actions": {
+				"transient_mark": [
+					"suspicious"
+				]
+			},
+			"description": "IMPOSTOR DETECTED",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"amongus",
+						"amogus",
+						"a m o g u s",
+						"impostor",
+						"sussy",
+						"among us",
+						"vent"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"transient_mark": [
+					"suspicious"
+				]
+			},
+			"description": "IMPOSTOR BEING SUSSY IN CHAT DETECTED",
+			"triggers": {
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"amongus",
+						"amogus",
+						"a m o g u s",
+						"impostor",
+						"sussy",
+						"among us",
+						"vent"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"transient_mark": [
+					"suspicious"
+				]
+			},
+			"description": "SUS DETECTED",
+			"triggers": {
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "word",
+					"patterns": [
+						"sus"
+					]
+				}
+			}
+		}
+	]
+}
