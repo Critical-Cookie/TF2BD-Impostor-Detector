@@ -9,5 +9,6 @@ DO NOT USE IF YOU'RE PLAYING AS IMPOSTOR!
 Keywords currently detected:
 - amogus
 - amongus
+- among us
 - impostor
 - sussy
