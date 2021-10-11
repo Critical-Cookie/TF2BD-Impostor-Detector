@@ -50,6 +50,23 @@
 					]
 				}
 			}
-		}
+		},
+                {
+                        "actions": {
+                                "transient_mark": [
+                                        "suspicious"
+                                ]
+                        },
+                        "description": "SUS DETECTED",
+                        "triggers": {
+                                "chatmsg_text_match": {
+                                        "case_sensitive": false,
+                                        "mode": "word",
+                                        "patterns": [
+                                                "sus"
+                                        ]
+                                }
+                        }
+                }
 	]
 }
