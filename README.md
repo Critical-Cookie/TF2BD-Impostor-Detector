@@ -17,5 +17,6 @@ DO NOT USE IF YOU'RE PLAYING AS IMPOSTOR!
 - among us
 - impostor
 - sussy
+- sus
 - vent
 - a m o g u s
